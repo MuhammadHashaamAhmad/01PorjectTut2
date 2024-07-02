@@ -16,6 +16,10 @@ app.get('/Hashaam',(req,res)=>{
     res.send('<h1>Hashaam Ahmad</h1>')
 })
 
+app.get('/HashaamAhmad',(req,res)=>{
+    res.send('<h1>Hashaam Ahmad</h1>')
+})
+
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
 })
